@@ -197,7 +197,8 @@ p {
 }
 
 .col-puissance4 {
-    background-color: rgba(21,31,39,0.8);
+    background-color: rgba(8, 100, 175, 0.8);
+    border: #151F27 solid 1px;
 }
 
 .col-puissance4-left {
@@ -288,7 +289,7 @@ p {
 
 /*Boutons*/
 .btn-lien {
-    border-radius: 50px;
+    /* border-radius: 50px; */
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #29B8C7;
