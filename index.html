@@ -10,7 +10,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="favicon.png">
     <meta name="author" content="Hugo, Quentin, Glenn, Sylvain">
     <meta name="category" content="jeux virtuel">
@@ -30,18 +30,86 @@
     <meta name="twitter:site" content="http://glennp.promo-vesoul33.codeur.online/puissancequatrejs/">
     <title>Puissance quatre javascript</title>
 
+</head>
+
 <body>
     <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="index.html">Jeux</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-lg-flex d-xl-flex justify-content-end" id="navbarText">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link nav-active" href="regles-puissance4.html">Puissance 4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="regles-plus-ou-moins.html">Plus ou moins</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-table text-white" href="regles-tables-multiplication.html">Tables multiplication</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    
+    <!--Contenu-->		
+    <div class="container-fluid contenu-page-standard">
+        <div class="container">
+            <h1 class="text-center text-white p-3 pt-4 titre-jeu titre-regles">Puissance 4&nbsp;- Règles du jeu</h1>
+            <div class="row d-flex justify-content-center align-items-center row-standard">
+
+                <!--Regles-->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 bloc">
+                    <h2>Les modes de jeu :</h2>
+                    <p class="text-white p-regles-jeu"><i class="fas fa-circle"></i> Joueur 1 vs Joueur 2</p> 
+                    <p class="text-white p-regles-jeu"><i class="fas fa-circle"></i> Joueur 1 vs Ordinateur</p>
+                    <h2 class="pt-4">Pour débuter la partie :</h2>
+                    <p class="text-white p-regles-jeu"><i class="fas fa-circle"></i> Désigner qui est le Joueur 1 et qui est le Joueur 2</p> 
+                    <p class="text-white p-regles-jeu"><i class="fas fa-circle"></i> Le joueur choisit une colonne dans laquelle il veut mettre son jeton et celui-ci tombe en bas de la colonne</p> 
+                    <p class="text-white p-regles-jeu"><i class="fas fa-circle"></i> Le deuxième joueur insère ensuite son jeton dans la colonne de son choix</p>
+                    <h2 class="pt-4">Pour gagner une partie :</h2>
+                    <p class="text-white p-regles-jeu"><i class="fas fa-circle"></i> Il suffit d'être le premier à aligner 4 jetons de sa couleur soit horizontalement, verticalement ou diagonalement</p> 
+                    <p class="text-white p-regles-jeu"><i class="fas fa-circle"></i> Si tous les jetons sont joués sans qu'il y ait d'alignement de jetons, la partie est nulle</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Boutons-->
+    <div class="container-fluid container-buttons container-buttons-page-standard">
+        <div class="container">
+            <div class="row d-flex justify-content-center row-standard">
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-4">
+                    <a href="jcj.html" class="btn btn-primary btn-lien w-100">Joueur 1 VS Joueur 2</a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-4">
+                    <a href="jce.html" class="btn btn-primary btn-lien w-100">Joueur 1 VS Ordinateur</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="container-fluid fixed-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <p class="text-center text-white pt-3 pl-2 pr-2 text-footer">© 2019 - Hugo Quentin Glenn Sylvain - Tous droits réservés</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+  
 
      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
      <script src="script.js"></script>
-     <script src="pve.js"></script>
-     <script src="pvp.js"></script>
  </body>
  
  </html>
