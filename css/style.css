@@ -7,6 +7,13 @@ font-family: 'Monoton', cursive;
 font-family: 'Quantico', sans-serif;
 } */
 
+body{
+    height: 100vh;
+    background-image: url(../medias/bg-body-principal.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 /*-----FONT SECTION-----*/
 
 .font-quantico{
@@ -20,3 +27,6 @@ font-family: 'Quantico', sans-serif;
     height: 50px;
     border-radius:50%;
 }
+
+/*-----BACKGROUND SECTION-----*/
+
