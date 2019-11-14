@@ -14,12 +14,6 @@ font-family: 'Quantico', sans-serif;
 }
 
 
-
-
-
-
-
-
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 
@@ -64,9 +58,6 @@ h2 {
     padding-top: 110px;
 }
 
-.titre-jeu {
-    margin-top: -80px;
-}
 
 p {
     font-size: 1rem;
