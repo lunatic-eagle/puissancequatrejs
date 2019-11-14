@@ -12,26 +12,22 @@ html:root{
     --orange-medium: #d3560e;
     --purple-light: #851e52;
     --purple-medium: #521168;
+    --pink-glow: #ff0080;
+    --blue-medium: #
 }
 
-body{
+/* body{
     height: 100vh;
     background-image: url(../medias/bg-body-principal.jpg);
     background-size: cover;
     background-position: center;
-}
+} */
 
 /*-----FONT SECTION-----*/
 
 .font-quantico{
     font-family: 'Monoton', sans-serif !important;
 }
-
-
-
-
-
-
 
 
 /*Fonts*/
@@ -51,7 +47,8 @@ body {
     font-weight: 300;
     background: url('../img/background.svg') no-repeat center;
     background-size: cover;
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    background-color: black;
 }
 
 .container {
@@ -60,8 +57,10 @@ body {
 
 /*Textes*/
 h1 {
-    font-family: 'Fontastique';
+    font-family: 'Monoton', sans-serif !important;
     font-size: 3rem;
+    color: var(--pink-glow)!important;
+    text-shadow: 1px 10px 10px var(--orange-medium);
 }
 
 h2 {
