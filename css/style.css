@@ -7,6 +7,13 @@ font-family: 'Monoton', cursive;
 font-family: 'Quantico', sans-serif;
 } */
 
+html:root{
+    --orange-light: #ff8000;
+    --orange-medium: #d3560e;
+    --purple-light: #851e52;
+    --purple-medium: #521168;
+}
+
 body{
     height: 100vh;
     background-image: url(../medias/bg-body-principal.jpg);
