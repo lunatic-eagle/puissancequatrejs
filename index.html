@@ -32,70 +32,59 @@
 
 <body>
 
-
-    <main>
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-            <div class="container">
-                <a class="navbar-brand text-white" href="index.html">Puissance 4</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse d-lg-flex d-xl-flex justify-content-end" id="navbarText">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link nav-active" href="jcj.html">Joueur VS Joueur</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="jce.html">Joueur VS IA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-table text-white" href="index.html">Règles du jeu</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="index.html"><img src="medias/logo-puissance-4.png" alt="logo puissance 4" width="3000" height=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-lg-flex d-xl-flex justify-content-end" id="navbarText">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link nav-active" href="jcj.html">Joueur VS Joueur</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="jce.html">Joueur VS IA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-table text-white" href="index.html">Règles du jeu</a>
+                    </li>
+                </ul>
             </div>
         </nav>
 
 
-        <div class="container-fluid contenu-page-standard">
-            <div class="container">
-                <h1 class="text-center text-white p-3 pt-4 titre-jeu titre-regles">Puissance 4&nbsp;- Règles du jeu</h1>
-                <div class="row d-flex justify-content-center align-items-center row-standard">
+    <div class="container-fluid contenu-page-standard">
+        <div class="container">
+            <h1 class="text-center text-white p-3 pt-4 titre-jeu titre-regles">Puissance 4&nbsp;- Règles du jeu</h1>
+            <div class="row d-flex justify-content-center align-items-center row-standard">
 
-                    <!--Regles-->
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 bloc">
-                        <h2>Les modes de jeu :</h2>
-                        <p class="text-white p-regles-jeu"><i class="font-regle"></i> Joueur 1 vs Joueur 2</p>
-                        <p class="text-white p-regles-jeu"><i class="font-regle"></i> Joueur 1 vs Ordinateur</p>
-                        <h2 class="pt-4">Pour débuter la partie :</h2>
-                        <p class="text-white p-regles-jeu"><i class="font-regle"></i> Désigner qui est le Joueur 1 et
-                            qui est le Joueur 2</p>
-                        <p class="text-white p-regles-jeu"><i class="font-regle"></i> Le joueur choisit une colonne dans
-                            laquelle il veut mettre son jeton et celui-ci tombe en bas de la colonne</p>
-                        <p class="text-white p-regles-jeu"><i class="font-regle"></i> Le deuxième joueur insère ensuite
-                            son jeton dans la colonne de son choix</p>
-                        <h2 class="pt-4">Pour gagner une partie :</h2>
-                        <p class="text-white p-regles-jeu"><i class="font-regle"></i> Il suffit d'être le premier à
-                            aligner 4 jetons de sa couleur soit horizontalement, verticalement ou diagonalement</p>
-                        <p class="text-white p-regles-jeu"><i class="font-regle"></i> Si tous les jetons sont joués sans
-                            qu'il y ait d'alignement de jetons, la partie est nulle</p>
-                    </div>
+                <!--Regles-->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 bloc">
+                    
+                    <h2 class="pt-4">But du jeu :</h2>
+                    <p class="text-white p-regles-jeu"><i class="font-regle"></i> Le but du jeu est d'aligner une suite de 4 pions de même couleur sur une grille comptant 6 rangées et 7 colonnes. Chaque joueur dispose de 21 pions d'une couleur.<br>
+                    <br>
+                    Tour à tour, les deux joueurs placent un pion dans la colonne de leur choix, le pion coulisse alors jusqu'à la position la plus basse possible dans la dite colonne à la suite de quoi c'est à l'adversaire de jouer</p> 
+            
+                    <h2 class="pt-4">Comment gagner :</h2>
+                    <p class="text-white p-regles-jeu"><i class="font-regle"></i>Le vainqueur est le joueur qui réalise le premier un alignement (horizontal, vertical ou diagonal) consécutif d'au moins quatre pions de sa couleur.<br>
+                    <br>
+                    Si, alors que toutes les cases de la grille de jeu sont remplies, aucun des deux joueurs n'a réalisé un tel alignement, la partie est déclarée nulle.</p> 
+                    
                 </div>
             </div>
         </div>
 
-        <!--Boutons-->
-        <div class="container-fluid container-buttons container-buttons-page-standard">
-            <div class="container">
-                <div class="row d-flex justify-content-center row-standard">
-                    <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-4">
-                        <a href="jcj.html" class="btn btn-primary btn-lien w-100">Joueur 1 VS Joueur 2</a>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-4">
-                        <a href="jce.html" class="btn btn-primary btn-lien w-100">Joueur 1 VS Ordinateur</a>
-                    </div>
+    <!--Boutons-->
+    <div class="container-fluid container-buttons container-buttons-page-standard">
+        <div class="container">
+            <div class="row d-flex justify-content-center row-standard">
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-4">
+                    <a href="jcj.html" class="btn btn-primary btn-lien w-100">Joueur Rouge <br> VS <br> Joueur Jaune</a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-4">
+                    <a href="jce.html" class="btn btn-primary btn-lien w-100">Joueur <br> VS <br> Ordinateur</a>
                 </div>
             </div>
         </div>
