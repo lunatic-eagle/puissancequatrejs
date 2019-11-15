@@ -152,16 +152,6 @@ p {
     outline: none !important;
 }
 
-/*Contenu page*/
-/* .container-regles {
-    margin-top: 70px;
-} */
-
-/* .contenu-page {
-    max-width: 800px;
-} */
-
-
 
 /*Colonnes puissance4*/
 .col-player-1 {
@@ -183,15 +173,7 @@ p {
     border: #151F27 solid 1px;
 }
 
-.col-puissance4-left {
-    /* border-top-left-radius: 10px; */
-    /* border-bottom-left-radius: 10px; */
-}
 
-.col-puissance4-right {
-    /* border-top-right-radius: 10px; */
-    /* border-bottom-right-radius: 10px; */
-}
 
 /*Cercles puissance4*/
 .content {
@@ -272,7 +254,9 @@ p {
     max-width: 800px;
 }
 
-
+.bouton-text{
+    display: none;
+}
  
 /*Footer*/
 footer {
