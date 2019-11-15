@@ -87,7 +87,9 @@ window.addEventListener('DOMContentLoaded', function init() {
 
 
 
-// verifie si jeton tombe
+// definir le jeton qui tombe
+
+//*********************************
 
 
 
