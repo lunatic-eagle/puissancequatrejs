@@ -98,29 +98,7 @@ p {
     margin-top: -20px;
 }
 
-@media (max-width: 767px) { 
-    .h2-0-100, .h2-pro-maths {
-        padding-top: 50px;
-    }
-    .h2-page-regle {
-        padding-top: 0;
-    }
-    .text-victoire-defaite {
-        font-size: 4rem;
-    }
-    .text-bravo-dommage {
-        font-size: 1rem;
-    }
-    .titre-jeu {
-        margin-top: -30px;
-    }
-}
 
-@media (max-width: 350px) { 
-    .text-victoire-defaite {
-        font-size: 2.5rem;
-    }
-}
 
 /*Nav*/
 
@@ -142,11 +120,7 @@ p {
     padding-left: 1.5rem;
 }
 
-@media (max-width: 768px) {
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-left: 0;
-    }
-}
+
 
 .nav-link-table {
     padding-right: 0 !important;
@@ -255,45 +229,7 @@ p {
     font-size: 1.5rem;
 }
 
-@media (max-width: 576px) { 
-    .circle {
-        display: block;
-        width: 10px;
-        padding-bottom: 10px;
-        border-radius: 50%;
-        background-color: #A3D6D8;
-        margin: auto;
-        margin-left: -5px;
-    } 
-}
 
-@media (max-width: 575px) { 
-    .circle-player {
-        width: 80%;
-        padding-bottom: 80%;
-    }
-}
-
-@media (max-width: 346px) { 
-    .col-2 {
-        flex: 0 0 13%;
-        max-width: 13%;
-    }
-    .col-1 {
-        flex: 0 0 6%;
-        max-width: 6%;
-    }
-    .circle-player {
-        width: 100%;
-        padding-bottom: 100%;
-    }
-}
-
-@media (max-width: 314px) { 
-    .col-2 {
-        display: none;
-    }
-}
 
 /*Boutons*/
 .btn-lien {
@@ -336,23 +272,7 @@ p {
     max-width: 800px;
 }
 
-@media (max-width: 350px) { 
-    .btn-lien, .bouton-text {
-        font-size: 3rem;
-    }
-}
 
-@media (max-width: 310px) { 
-    .btn-lien, .bouton-text {
-        font-size: 0.8rem;
-    }
-}
-
-@media (max-height: 500px) { 
-    .container-buttons {
-        padding-bottom: 100px;
-    }
-}
  
 /*Footer*/
 footer {
@@ -387,3 +307,87 @@ footer {
     background-color: rgba(221,38,39,0.8);
 }
 
+@media (max-width: 767px) { 
+    .h2-0-100, .h2-pro-maths {
+        padding-top: 50px;
+    }
+    .h2-page-regle {
+        padding-top: 0;
+    }
+    .text-victoire-defaite {
+        font-size: 4rem;
+    }
+    .text-bravo-dommage {
+        font-size: 1rem;
+    }
+    .titre-jeu {
+        margin-top: -30px;
+    }
+}
+
+@media (max-width: 350px) { 
+    .text-victoire-defaite {
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 350px) { 
+    .btn-lien, .bouton-text {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 310px) { 
+    .btn-lien, .bouton-text {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-height: 500px) { 
+    .container-buttons {
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0;
+    }
+}
+@media (max-width: 314px) { 
+    .col-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) { 
+    .circle-player {
+        width: 80%;
+        padding-bottom: 80%;
+    }
+}
+
+@media (max-width: 346px) { 
+    .col-2 {
+        flex: 0 0 13%;
+        max-width: 13%;
+    }
+    .col-1 {
+        flex: 0 0 6%;
+        max-width: 6%;
+    }
+    .circle-player {
+        width: 100%;
+        padding-bottom: 100%;
+    }
+}
+@media (max-width: 576px) { 
+    .circle {
+        display: block;
+        width: 10px;
+        padding-bottom: 10px;
+        border-radius: 50%;
+        background-color: black ;
+        margin: auto;
+        margin-left: -5px;
+    } 
+}
