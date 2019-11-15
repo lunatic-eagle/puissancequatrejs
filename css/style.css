@@ -10,6 +10,8 @@ html:root{
     --blue-medium: #00a2ff;
 }
 
+
+
 /*-----FONT SECTION-----*/
 
 .font-monoton{
@@ -40,13 +42,19 @@ html:root{
 }
 
 /*General*/
+html {
+    height: 100%;
+  }
+
 body {
 	font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
     background: url('../medias/brick-wall.png') center;
     background-size: cover;
-    /* height: 100vh; */
     background-color: black;
+    min-height: 100%;
+    margin: 0;
+    padding: 0 0 50px 0;
+    position: relative;
 }
 
 main{
