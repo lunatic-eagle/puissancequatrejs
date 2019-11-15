@@ -45,13 +45,15 @@ body {
     font-weight: 300;
     background: url('../medias/brick-wall.png') center;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: black;
 }
 
 main{
     height: 100%;
 }
+
+
 
 /*Textes*/
 
@@ -348,6 +350,8 @@ p {
 /*Footer*/
 footer {
     background-color: rgba(70, 33, 29, 0.377)!important;
+    position: absolute;
+    bottom: 0;
 }
 
 .text-footer {
