@@ -1,3 +1,4 @@
+
 //Variables
 const colonne = document.querySelectorAll('.col-puissance4');
 const nouvellePartie = document.querySelector('.btn-NouvellePartie');
@@ -76,6 +77,9 @@ window.addEventListener('DOMContentLoaded', function init() {
         }
     })
  });
+
+// definir si le jeton tombe
+
 
 //Fonction de changement de joueurs
 function tourJoueur() {
