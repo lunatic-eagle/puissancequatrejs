@@ -192,14 +192,14 @@ p {
 /*Colonnes puissance4*/
 .col-player-1 {
     background-color: rgba(21,31,39,0.8);
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-right: 3%;
     height: 160px;
 }
 
 .col-player-2 {
     background-color: rgba(21,31,39,0.8);
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-left: 3%;
     height: 160px;
 }
@@ -209,15 +209,6 @@ p {
     border: #151F27 solid 1px;
 }
 
-.col-puissance4-left {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
-.col-puissance4-right {
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
 
 /*Cercles puissance4*/
 .content {
@@ -230,7 +221,7 @@ p {
 	width: 80%;
 	padding-bottom: 80%;
 	border-radius: 50%;
-	background-color: #A3D6D8;
+	background-color: black;
 	margin: auto;
 }
 
@@ -338,7 +329,7 @@ p {
 
 @media (max-width: 350px) { 
     .btn-lien, .bouton-text {
-        font-size: 1rem;
+        font-size: 3rem;
     }
 }
 

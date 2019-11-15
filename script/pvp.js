@@ -78,7 +78,10 @@ window.addEventListener('DOMContentLoaded', function init() {
     })
  });
 
-// definir si le jeton tombe
+// definir le jeton qui tombe
+
+
+
 
 
 //Fonction de changement de joueurs
