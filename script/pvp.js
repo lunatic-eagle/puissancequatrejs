@@ -101,7 +101,7 @@ function tourJoueur() {
         color = 'r';
         colorActive = '#FFE300';
     }
-    nombreJetons.innerHTML = ("Il reste " + compteur + " jetons");
+    nombreJetons.innerHTML = (compteur);
 };
 
 //Fonction de positionnement du jeton dans sa colonne

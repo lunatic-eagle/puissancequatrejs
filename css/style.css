@@ -124,13 +124,14 @@ p {
 
 /*Nav*/
 
+.nav-link {
+    display: block;
+    padding: 1rem 1rem;
+
+}
 .logo-puissance{
     width: 70px;
     height: 70px;
-}
-
-.navbar{
-    padding: 0;
 }
 
 .navbar-collapse {
@@ -153,12 +154,22 @@ p {
 }
 
 .bg-light {
-    background-color: #1B6B89!important;
+    background-color: rgba(70, 33, 29, 0.377)!important;
 }
 
-.nav-active {
-    color: #2BB8C7!important;
-    font-weight: 700;
+.nav-link{
+    font-family: 'Press Start 2P', sans-serif !important;
+    color: #C86D4E !important;
+    font-size: 15px;
+}
+
+.navbar>.container, .navbar>.container-fluid {
+    justify-content: flex-end;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(226, 92, 15, 0.671) !important;
+    box-shadow: -1px -1px 11px rgba(206,89,55,0.87);
 }
 
 .navbar-brand {
@@ -178,14 +189,6 @@ p {
     outline: none !important;
 }
 
-/*Contenu page*/
-/* .container-regles {
-    margin-top: 70px;
-} */
-
-/* .contenu-page {
-    max-width: 800px;
-} */
 
 
 
@@ -356,7 +359,7 @@ p {
  
 /*Footer*/
 footer {
-    background-color: #1B6B89;
+    background-color: rgba(70, 33, 29, 0.377)!important;
 }
 
 .text-footer {
