@@ -203,14 +203,14 @@ p {
 /*Colonnes puissance4*/
 .col-player-1 {
     background-color: rgba(21,31,39,0.8);
-    border-radius: 30px;
+    border-radius: 10px;
     margin-right: 3%;
     height: 160px;
 }
 
 .col-player-2 {
     background-color: rgba(21,31,39,0.8);
-    border-radius: 30px;
+    border-radius: 10px;
     margin-left: 3%;
     height: 160px;
 }
@@ -221,13 +221,13 @@ p {
 }
 
 .col-puissance4-left {
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .col-puissance4-right {
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 /*Cercles puissance4*/
@@ -255,7 +255,7 @@ p {
 }
 
 .cicle-player-1 {
-    background-color: #2899D6;
+    background-color: rgb(201, 31, 45);
 }
 
 .circle-player-2 {
@@ -308,7 +308,7 @@ p {
 
 /*Boutons*/
 .btn-lien {
-    /* border-radius: 50px; */
+    border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #29B8C7;
@@ -336,7 +336,7 @@ p {
 }
 .bouton-text {
     background-color: #151F27;
-    border-radius: 50px;
+    border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 6px;
@@ -387,7 +387,7 @@ footer {
 .bloc {
     background-color: rgba(21,31,39,0.8);
     padding: 25px;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 .contenu-page-standard {
