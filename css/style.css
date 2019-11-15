@@ -25,9 +25,22 @@ html:root{
 
 /*-----FONT SECTION-----*/
 
-.font-quantico{
+.font-monoton{
     font-family: 'Monoton', sans-serif !important;
 }
+
+.font-start-2p{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.font-orbitron{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.font-quantico{
+    font-family: 'Quantico', sans-serif;
+}
+
 
 
 /*Fonts*/
