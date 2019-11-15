@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton|Orbitron|Press+Start+2P|Quantico&display=swap');
-/* 
-body{
-font-family: 'Press Start 2P', cursive;
-font-family: 'Orbitron', sans-serif;
-font-family: 'Monoton', cursive;
-font-family: 'Quantico', sans-serif;
-} */
+
 
 html:root{
     --orange-light: #ff8000;
@@ -16,12 +10,7 @@ html:root{
     --blue-medium: #00a2ff;
 }
 
-/* body{
-    height: 100vh;
-    background-image: url(../medias/bg-body-principal.jpg);
-    background-size: cover;
-    background-position: center;
-} */
+
 
 /*-----FONT SECTION-----*/
 
@@ -58,13 +47,10 @@ body {
     font-weight: 300;
     background: url('../img/background.svg') no-repeat center;
     background-size: cover;
-    /* min-height: 100vh; */
+    min-height: 100vh; 
     background-color: black;
 }
 
-.container {
-    padding: 0;
-}
 
 /*Textes*/
 h1 {
@@ -87,7 +73,6 @@ h2 {
 .h2-pro-maths {
     padding-top: 110px;
 }
-
 
 p {
     font-size: 1rem;
