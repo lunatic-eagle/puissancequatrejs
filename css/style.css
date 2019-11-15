@@ -13,7 +13,7 @@ html:root{
     --purple-light: #851e52;
     --purple-medium: #521168;
     --pink-glow: #ff0080;
-    --blue-medium: #
+    --blue-medium: #00a2ff;
 }
 
 /* body{
@@ -40,8 +40,6 @@ html:root{
 .font-quantico{
     font-family: 'Quantico', sans-serif;
 }
-
-
 
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
