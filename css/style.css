@@ -160,6 +160,13 @@ p {
     font-size: 15px;
 }
 
+.nav-link:hover{
+    font-family: 'Press Start 2P', sans-serif !important;
+    color: #C86D4E !important;
+    text-shadow: -1px -1px 11px rgba(206,89,55,0.87);
+    font-size: 15px;
+}
+
 .navbar>.container, .navbar>.container-fluid {
     justify-content: flex-end;
 }
@@ -205,7 +212,7 @@ p {
 }
 
 .col-puissance4 {
-    background-color: rgba(8, 100, 175, 0.8);
+    background-color: rgba(0, 0, 0, 0);
     border: #151F27 solid 1px;
 }
 
