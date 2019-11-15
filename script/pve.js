@@ -117,7 +117,7 @@ function tourJoueur() {
         colorActive = '#FFE300';
         randomX();
     }
-    nombreJetons.innerHTML = ("Il reste " + compteur + " jetons");
+    nombreJetons.innerHTML = (compteur);
 };
 
 //Place aleatoirement le jeton

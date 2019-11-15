@@ -43,7 +43,7 @@ html:root{
 body {
 	font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    background: url('../medias/brick-wall.png') no-repeat center;
+    background: url('../medias/brick-wall.png') center;
     background-size: cover;
     height: 100vh;
     background-color: black;
@@ -52,9 +52,6 @@ body {
 main{
     height: 100%;
 }
-
-
-
 
 /*Textes*/
 
@@ -102,13 +99,14 @@ p {
 
 /*Nav*/
 
+.nav-link {
+    display: block;
+    padding: 1rem 1rem;
+
+}
 .logo-puissance{
     width: 70px;
     height: 70px;
-}
-
-.navbar{
-    padding: 0;
 }
 
 .navbar-collapse {
@@ -127,12 +125,22 @@ p {
 }
 
 .bg-light {
-    background-color: #1B6B89!important;
+    background-color: rgba(70, 33, 29, 0.377)!important;
 }
 
-.nav-active {
-    color: #2BB8C7!important;
-    font-weight: 700;
+.nav-link{
+    font-family: 'Press Start 2P', sans-serif !important;
+    color: #C86D4E !important;
+    font-size: 15px;
+}
+
+.navbar>.container, .navbar>.container-fluid {
+    justify-content: flex-end;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(226, 92, 15, 0.671) !important;
+    box-shadow: -1px -1px 11px rgba(206,89,55,0.87);
 }
 
 .navbar-brand {
@@ -151,6 +159,8 @@ p {
 .navbar-toggler:focus {
     outline: none !important;
 }
+
+
 
 
 /*Colonnes puissance4*/
@@ -172,7 +182,6 @@ p {
     background-color: rgba(8, 100, 175, 0.8);
     border: #151F27 solid 1px;
 }
-
 
 
 /*Cercles puissance4*/
@@ -215,10 +224,10 @@ p {
 
 /*Boutons*/
 .btn-lien {
-    border-radius: 10px;
-    margin-top: 20px;
+    /* border-radius: 10px; */
+    margin-top: 50px;
     margin-bottom: 20px;
-    background-color: #29B8C7;
+    background-color: rgba(8, 100, 175, 0.8);
     border: 0;
     font-weight: 300;
     font-size: 1.2rem;
@@ -254,13 +263,11 @@ p {
     max-width: 800px;
 }
 
-.bouton-text{
-    display: none;
-}
+
  
 /*Footer*/
 footer {
-    background-color: #1B6B89;
+    background-color: rgba(70, 33, 29, 0.377)!important;
 }
 
 .text-footer {

@@ -33,23 +33,22 @@
 <body>
     <!-- Navigation -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand text-white" href="index.html">Jeux</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-lg-flex d-xl-flex justify-content-end" id="navbarText">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav w-100 d-flex justify-content-between">
                     <li class="nav-item">
-                        <a class="nav-link nav-active" href="jcj.html">Joueur VS Joueur</a>
+                        <a class="nav-link text-white" href="jcj.html">Joueur VS Joueur</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="jce.html">Joueur VS IA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-table text-white" href="index.html">Règles du jeu</a>
+                        <a class="nav-link text-white" href="index.html">Règles du jeu</a>
                     </li>
                 </ul>
             </div>
@@ -57,191 +56,203 @@
     </nav>
 
     <main>
-    
-    <div class="container-fluid contenu-page">
-        <div class="container">
-            <h1 class="text-center p-3 pt-4 titre-jeu">Puissance 4&nbsp;- J1 vs J2</h1>
-            <div class="row d-flex justify-content-center align-items-center">
-  
-                <!--Grille puissance 4-->
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-puissance4 col-puissance4-left colonne1">
-                    <div class="content">
-                        <div class="circle" id="x0y5"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x0y4"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x0y3"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x0y2"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x0y1"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x0y0"></div>
+        <div class="container-fluid d-flex flex-column justify-content-center py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-center text-white titre-jeu">Puissance 4&nbsp;- J1 VS Ordi</h1>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="container-fluid ">
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <!--Grille puissance 4-->
+                    <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-puissance4 col-puissance4-left colonne1">
+                        <div class="content">
+                            <div class="circle" id="x0y5"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x0y4"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x0y3"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x0y2"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x0y1"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x0y0"></div>
+                        </div>
+                    </div>
 
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-puissance4 colonne2">
-                    <div class="content">
-                        <div class="circle" id="x1y5"></div>
+                    <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-puissance4 colonne2">
+                        <div class="content">
+                            <div class="circle" id="x1y5"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x1y4"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x1y3"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x1y2"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x1y1"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x1y0"></div>
+                        </div>
                     </div>
-                    <div class="content">
-                        <div class="circle" id="x1y4"></div>
+
+                    <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-puissance4 colonne3">
+                        <div class="content">
+                            <div class="circle" id="x2y5"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x2y4"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x2y3"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x2y2"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x2y1"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x2y0"></div>
+                        </div>
                     </div>
-                    <div class="content">
-                        <div class="circle" id="x1y3"></div>
+
+                    <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-puissance4 colonne4">
+                        <div class="content">
+                            <div class="circle" id="x3y5"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x3y4"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x3y3"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x3y2"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x3y1"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x3y0"></div>
+                        </div>
                     </div>
-                    <div class="content">
-                        <div class="circle" id="x1y2"></div>
+
+                    <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-puissance4 colonne5">
+                        <div class="content">
+                            <div class="circle" id="x4y5"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x4y4"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x4y3"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x4y2"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x4y1"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x4y0"></div>
+                        </div>
                     </div>
-                    <div class="content">
-                        <div class="circle" id="x1y1"></div>
+
+                    <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-puissance4 colonne6">
+                        <div class="content">
+                            <div class="circle" id="x5y5"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x5y4"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x5y3"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x5y2"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x5y1"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x5y0"></div>
+                        </div>
                     </div>
-                    <div class="content">
-                        <div class="circle" id="x1y0"></div>
+
+                    <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-puissance4 col-puissance4-right colonne7">
+                        <div class="content">
+                            <div class="circle" id="x6y5"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x6y4"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x6y3"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x6y2"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x6y1"></div>
+                        </div>
+                        <div class="content">
+                            <div class="circle" id="x6y0"></div>
+                        </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-puissance4 colonne3">
+            <div class="container-fluid pt-3">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <!--Joueur 1-->
+                        <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-player-1 ">
+                            <p
+                                class="pt-3 text-white text-center text-player d-none d-sm-block d-md-block d-lg-block d-xl-block">
+                                Joueur 1</p>
+                            <p
+                                class="pt-3 text-white text-center text-player d-block d-sm-none d-md-none d-lg-none d-xl-none">
+                                J1</p>
+                            <div class="content">
+                                <div class="circle-player cicle-player-1"></div>
+                            </div>
+                        </div>
+         
+                <!--Joueur 2-->
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-player-2">
+                    <p
+                        class="pt-3 text-white text-center text-player d-none d-sm-block d-md-block d-lg-block d-xl-block">
+                        Joueur 2</p>
+                    <p class="pt-3 text-white text-center text-player d-block d-sm-none d-md-none d-lg-none d-xl-none">
+                        J2</p>
                     <div class="content">
-                        <div class="circle" id="x2y5"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x2y4"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x2y3"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x2y2"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x2y1"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x2y0"></div>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-puissance4 colonne4">
-                    <div class="content">
-                        <div class="circle" id="x3y5"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x3y4"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x3y3"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x3y2"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x3y1"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x3y0"></div>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-puissance4 colonne5">
-                    <div class="content">
-                        <div class="circle" id="x4y5"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x4y4"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x4y3"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x4y2"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x4y1"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x4y0"></div>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-puissance4 colonne6">
-                    <div class="content">
-                        <div class="circle" id="x5y5"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x5y4"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x5y3"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x5y2"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x5y1"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x5y0"></div>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-puissance4 col-puissance4-right colonne7">
-                    <div class="content">
-                        <div class="circle" id="x6y5"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x6y4"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x6y3"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x6y2"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x6y1"></div>
-                    </div>
-                    <div class="content">
-                        <div class="circle" id="x6y0"></div>
+                        <div class="circle-player circle-player-2"></div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid py-5">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <!--Joueur 1-->
-                        <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-player-1">
-                            <p class="pt-3 text-white text-center text-player d-none d-sm-block d-md-block d-lg-block d-xl-block">Joueur 1</p>
-                            <p class="pt-3 text-white text-center text-player d-block d-sm-none d-md-none d-lg-none d-xl-none">J1</p>
-                            <div class="content">
-                                <div class="circle-player cicle-player-1"></div>
-                            </div>
-                        </div>
-
-                        <!--Joueur 2-->
-                        <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-player-2">
-                            <p class="pt-3 text-white text-center text-player d-none d-sm-block d-md-block d-lg-block d-xl-block">Joueur 2</p>
-                            <p class="pt-3 text-white text-center text-player d-block d-sm-none d-md-none d-lg-none d-xl-none">J2</p>
-                            <div class="content">
-                                <div class="circle-player circle-player-2"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         <!--Boutons-->
         <div class="container-fluid container-buttons">
             <div class="container">
                 <div class="row d-flex justify-content-center">
-                    <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 d-none">
                         <p class="text-center text-white bouton-text">Test</p>
                     </div>
                     <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
@@ -251,23 +262,26 @@
                 </div>
             </div>
         </div>
-
-</main>
-        <!--Footer-->
+    </main>
+        <!-- Footer
         <footer class="container-fluid sticky-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                        <p class="text-center text-white pt-3 pl-2 pr-2 text-footer">Hugo Quentin Glenn Sylvain</p>
+                        <p class="text-center text-white pt-3 pl-2 pr-2 text-footer">Hugo Quentin Glenn Sylvain
+                        </p>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <script src="script/pvp.js"></script>
+        </footer> -->
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script/pvp.js"></script>
+
 </body>
 
 </html>
