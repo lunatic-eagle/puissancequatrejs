@@ -176,15 +176,15 @@ p {
 
 :root {
     /* Set neon color */
-    --neon-text-color: rgb(255, 104, 35);
-    --neon-border-color: rgb(255, 94, 0);
+    --neon-text-color: rgb(255, 81, 0);
+    --neon-border-color: rgb(255, 88, 116);
   }
 
 /*-----titre du jeu effet neon effect-----*/
 
 .titre-jeu{
     /* font-size: 5em; */
-    border: 2px solid white;
+    border: 2px solid rgb(255, 207, 184);
     border-radius: 10px;
     padding: 5px;
     animation: flicker 1.5s infinite alternate;
