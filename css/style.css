@@ -486,6 +486,12 @@ footer {
     } 
 }
 
+@media (max-width: 380px) { 
+    h1{
+        font-size:1.75rem !important;
+    }
+}
+
 @media (max-width: 350px) { 
     .text-victoire-defaite {
         font-size: 2.5rem;
