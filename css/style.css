@@ -70,7 +70,7 @@ h1 {
 }
 
 h2 {
-    color: #2BB8C7;
+    color: #C86D4E;
     font-weight: 700;
     font-size: 1rem;
 }
@@ -362,7 +362,7 @@ footer {
 }
 
 .bloc {
-    background-color: rgba(21,31,39,0.8);
+    background-color: rgba(70, 33, 29, 0.377);
     padding: 25px;
     border-radius: 10px;
 }
