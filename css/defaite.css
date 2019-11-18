@@ -234,11 +234,8 @@ p {
       }    
   }
 
-
-
-/* victoire néon */
-
-.span-v {
+  /* défaite néon */
+  .span-d {
     position: relative;
     font-size: 50px;
     letter-spacing: 15px;
@@ -246,56 +243,54 @@ p {
     animation: neon 1s linear forwards;
   }
   
-  .span-v:nth-child(1) {
+  .span-d:nth-child(1) {
     animation-delay: .25s;
   }
-  .span-v:nth-child(2) {
+  .span-d:nth-child(2) {
     animation-delay: .5s;
   }
-  .span-v:nth-child(3) {
+  .span-d:nth-child(3) {
     animation-delay: .75s;
   }
-  .span-v:nth-child(4) {
+  .span-d:nth-child(4) {
     animation-delay: 1s;
   }
-  .span-v:nth-child(5) {
+  .span-d:nth-child(5) {
     animation-delay: 1.25s;
   }
-  .span-v:nth-child(6) {
+  .span-d:nth-child(6) {
     animation-delay: 1.5s;
   }
-  .span-v:nth-child(7) {
+  .span-d:nth-child(7) {
     animation-delay: 1.75s;
   }
-  .span-v:nth-child(8) {
+  .span-d:nth-child(8) {
     animation-delay: 2s;
   }
   
   @keyframes neon {
     25%{
       color:rgb(255, 104, 35);
-      text-shadow:  0 0 5px #222;
+      text-shadow:  0 0 5px black;
     }
     50%{
-      text-shadow:  0 0 5px #222,
-                    0 0 10px rgb(255, 104, 35);
+      text-shadow:  0 0 5px black,
+                    0 0 10px black;
     }
     75%{
-      text-shadow:  0 0 5px #222,
-                    0 0 10px rgb(255, 104, 35),
-                    0 0 20px rgb(255, 104, 35)E;
+      text-shadow:  0 0 5px black,
+                    0 0 10px black,
+                    0 0 20px black;
     }
     100%{
-      color: #69F0AE;
-      text-shadow:  0 0 5px #222,
-                    0 0 10px rgb(255, 104, 35),
-                    0 0 20px rgb(255, 104, 35),
-                   -5px 5px  #444;
+      color: rgb(224, 1, 1);
+      text-shadow:  0 0 5px black,
+                    0 0 10px black,
+                    0 0 20px black,
+                   -5px 5px black;
       transform: scale(1.25);
     }
   }
-
- 
   
 /*Colonnes puissance4*/
 .col-player-1 {
