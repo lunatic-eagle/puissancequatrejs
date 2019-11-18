@@ -113,6 +113,7 @@ function place_jeton() {
     if (document.querySelector(`#x${x}y${i}`).color == null) {
         document.querySelector(`#x${x}y${i}`).color = color;
         document.querySelector(`#x${x}y${i}`).style.backgroundColor = colorActive;
+        document.querySelector(`#x${x}y${i}`).classList.add('fall');
         y = i;
         compteur--;
         verifGg();
@@ -128,6 +129,7 @@ function iteration2() {
     if (document.querySelector(`#x${x}y${i}`).color == null) {
         document.querySelector(`#x${x}y${i}`).color = color;
         document.querySelector(`#x${x}y${i}`).style.backgroundColor = colorActive;
+        document.querySelector(`#x${x}y${i}`).classList.add('fall');
         y = i;
         compteur--;
         verifGg();
@@ -143,6 +145,7 @@ function iteration3() {
     if (document.querySelector(`#x${x}y${i}`).color == null) {
         document.querySelector(`#x${x}y${i}`).color = color;
         document.querySelector(`#x${x}y${i}`).style.backgroundColor = colorActive;
+        document.querySelector(`#x${x}y${i}`).classList.add('fall');
         y = i;
         compteur--;
         verifGg();
@@ -159,6 +162,7 @@ function iteration4() {
     if (document.querySelector(`#x${x}y${i}`).color == null) {
         document.querySelector(`#x${x}y${i}`).color = color;
         document.querySelector(`#x${x}y${i}`).style.backgroundColor = colorActive;
+        document.querySelector(`#x${x}y${i}`).classList.add('fall');
         y = i;
         compteur--;
         verifGg();
@@ -173,6 +177,7 @@ function iteration5() {
     if (document.querySelector(`#x${x}y${i}`).color == null) {
         document.querySelector(`#x${x}y${i}`).color = color;
         document.querySelector(`#x${x}y${i}`).style.backgroundColor = colorActive;
+        document.querySelector(`#x${x}y${i}`).classList.add('fall');
         y = i;
         compteur--;
         verifGg();
@@ -187,6 +192,7 @@ function iteration6() {
     if (document.querySelector(`#x${x}y${i}`).color == null) {
         document.querySelector(`#x${x}y${i}`).color = color;
         document.querySelector(`#x${x}y${i}`).style.backgroundColor = colorActive;
+        document.querySelector(`#x${x}y${i}`).classList.add('fall');
         y = i;
         i = 0;
         compteur--;
