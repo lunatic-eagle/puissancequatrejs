@@ -139,6 +139,7 @@ p {
     font-family: 'Press Start 2P', sans-serif !important;
     color: #C86D4E !important;
     font-size: 15px;
+    text-align: center;
 }
 
 .nav-link:hover{
@@ -154,7 +155,7 @@ p {
 
 .navbar-light .navbar-toggler {
     border-color: rgba(226, 92, 15, 0.671) !important;
-    box-shadow: -1px -1px 11px rgba(206,89,55,0.87);
+    /* box-shadow: -1px -1px 11px rgba(206,89,55,0.87); */
 }
 
 .navbar-brand {
@@ -187,7 +188,7 @@ p {
     border: 2px solid white;
     border-radius: 10px;
     padding: 5px;
-    animation: flicker 1.5s infinite alternate;
+    animation: flicker 3.5s infinite alternate;
 }
 
 .titre-jeu::-moz-selection {
@@ -373,6 +374,17 @@ footer {
     background-color: rgba(221,38,39,0.8);
 }
 
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0;
+    }
+}
+
 @media (max-width: 767px) { 
     .h2-0-100, .h2-pro-maths {
         padding-top: 50px;
@@ -386,23 +398,24 @@ footer {
     .text-bravo-dommage {
         font-size: 1rem;
     }
-
 }
 
-@media (max-width: 350px) { 
-    .text-victoire-defaite {
-        font-size: 2.5rem;
-    }
-}
-@media (max-width: 350px) { 
-    .btn-lien, .bouton-text {
-        font-size: 3rem;
-    }
+@media (max-width: 576px) { 
+    .circle {
+        display: block;
+        width: 10px;
+        padding-bottom: 10px;
+        border-radius: 50%;
+        background-color: black ;
+        margin: auto;
+        margin-left: -5px;
+    } 
 }
 
-@media (max-width: 310px) { 
-    .btn-lien, .bouton-text {
-        font-size: 0.8rem;
+@media (max-width: 575px) { 
+    .circle-player {
+        width: 80%;
+        padding-bottom: 80%;
     }
 }
 
@@ -412,21 +425,15 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-left: 0;
-    }
-}
-@media (max-width: 314px) { 
-    .col-2 {
-        display: none;
+@media (max-width: 350px) { 
+    .text-victoire-defaite {
+        font-size: 2.5rem;
     }
 }
 
-@media (max-width: 575px) { 
-    .circle-player {
-        width: 80%;
-        padding-bottom: 80%;
+@media (max-width: 350px) { 
+    .btn-lien, .bouton-text {
+        font-size: 3rem;
     }
 }
 
@@ -444,14 +451,20 @@ footer {
         padding-bottom: 100%;
     }
 }
-@media (max-width: 576px) { 
-    .circle {
-        display: block;
-        width: 10px;
-        padding-bottom: 10px;
-        border-radius: 50%;
-        background-color: black ;
-        margin: auto;
-        margin-left: -5px;
-    } 
+
 }
+@media (max-width: 314px) { 
+    .col-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 310px) { 
+    .btn-lien, .bouton-text {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
