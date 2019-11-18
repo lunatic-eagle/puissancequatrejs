@@ -434,6 +434,7 @@ footer {
     .circle {
         height: 40px;
         width: 40px;
+    }
 }
 
 @media (max-width: 576px) { 
@@ -456,6 +457,12 @@ footer {
     .circle-player {
         width: 80%;
         padding-bottom: 80%;
+    }
+}
+
+@media (max-width: 500px) { 
+    .text-footer {
+        font-size: 12px;
     }
 }
 
