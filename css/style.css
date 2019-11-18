@@ -354,7 +354,22 @@ p {
     font-size: 1.5rem;
 }
 
+/*-----Drop down -----*/
+.fall {
+    animation-name: fall-animation;
+    animation-duration: 500ms;
+}
 
+@keyframes fall-animation {
+    from {
+        transform: translateY(-500px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/*-----end drop down-----*/
 
 /*Boutons*/
 .btn-lien {
