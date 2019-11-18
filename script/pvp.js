@@ -27,6 +27,7 @@ window.addEventListener('DOMContentLoaded', function init() {
     const colonne5 = document.querySelector(".colonne5");
     const colonne6 = document.querySelector(".colonne6");
     const colonne7 = document.querySelector(".colonne7");
+    var mySound = new sound ("plop.mp3");
 
     colonne1.addEventListener("click", function () {
         if (colonne1 === colonne1) {
@@ -120,7 +121,6 @@ function place_jeton() {
         i++;
         iteration2();
     }
-
 };
 
 //Iteration 2
@@ -192,7 +192,7 @@ function iteration6() {
         compteur--;
         verifGg();
     } else if (i = 6) {
-        window.alert("Colonne remplie");
+        window.alert("Aucun pion ne peut être ajouté à cette colonne !");
         colonneRemplie();
     }
 };
