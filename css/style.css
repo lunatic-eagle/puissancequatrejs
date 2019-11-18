@@ -547,6 +547,14 @@ footer {
         width: 15px;
     } 
 }
+@media (max-width: 460px) {
+    .span-v {
+        
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+        
+}
 
 @media (max-width: 380px) { 
     h1{
