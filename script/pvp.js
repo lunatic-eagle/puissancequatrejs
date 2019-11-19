@@ -130,6 +130,7 @@ function iteration2() {
         document.querySelector(`#x${x}y${i}`).color = color;
         document.querySelector(`#x${x}y${i}`).style.backgroundColor = colorActive;
         document.querySelector(`#x${x}y${i}`).classList.add('fall');
+        
         y = i;
         compteur--;
         verifGg();
